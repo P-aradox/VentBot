@@ -20,10 +20,18 @@ client.on('message', async (message) => {
         console.log(message.content);
         if(!message.content.startsWith(prefix)) return;
         
-        let confession = message.content.slice(prefix.length+1);
-        let embed = new Discord.MessageEmbed().setTitle(confession).setColor('#0099ff');
+        let ventMessage = message.content.slice(prefix.length+1);
+        let embed = new Discord.MessageEmbed({
+            author:'VentBot',
+            color:'#36fa00', 
+            title: ventMessage,
+            footer: {
+                text: `#${index}`
+              },
+            timestamp: Date.now()
+        });
         
-        await webhookClient.send(`#${index}`, {
+        await webhookClient.send('',{
             embeds: [embed],
         });
         index++
