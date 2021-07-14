@@ -1,7 +1,13 @@
-VentBot for Warwick Esports
+#VentBot for Warwick Esports
+
+Install Instructions:
+`git clone https://github.com/P-aradox/VentBot/`
+`cd VentBot`
+`npm install`
+`node .`
 
 Current Commands:
-- !vent <message>
+- !vent message
 
 To-do:
 - Add moderator approval system
