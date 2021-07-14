@@ -1,5 +1,5 @@
 # VentBot for Warwick Esports
-![VentBot icon](logo.jpg)
+![VentBot icon](logo.png)
 ### Install Instructions:
 `git clone https://github.com/P-aradox/VentBot/`
 
