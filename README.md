@@ -1,4 +1,4 @@
-# <img style='position: relative; top: 15px' src="logo.png" alt="VentBot icon" width="50"/> VentBot for Warwick Esports
+# <img src="logo.png" alt="VentBot icon" width="50"/> VentBot for Warwick Esports
 
 
 ### Install Instructions:
