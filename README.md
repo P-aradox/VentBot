@@ -10,12 +10,10 @@
 
 `node .`
 
+Then add relevant info to config.json
 
-### Current Commands:
-- !vent message
-
-### To-do:
-- Add moderator approval system
-- !help/!commands
-- !noun
-- !contacts
+### Commands:
+- !vent <message>         Send a message to the vent channel. This will be approved by Warwick Esports admins first.
+- !animal                 Provides a random animal for you to use to sign your messages with
+- !contacts               List of useful mental health links
+- !help                   List of commands
