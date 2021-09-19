@@ -1,6 +1,6 @@
 'use strict';
 
-const { token, webhook_id, webhook_token, moderator_channel, vent_channels } = require('./config.json');
+const { token, moderator_channel, vent_channels } = require('./config.json');
 const animals = require("./animals.json");
 
 // const request = require("request");
@@ -8,7 +8,6 @@ const animals = require("./animals.json");
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
-const webhookClient = new Discord.WebhookClient(webhook_id, webhook_token);
 
 const reactions = [':white_check_mark:', ':redcross:']
 
@@ -69,7 +68,6 @@ client.on('message', async (message) => {
         }
 
     } catch(error) {
-        // Discord.WebhookClient.send(error);
         console.log(error);
     }
 });
