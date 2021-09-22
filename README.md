@@ -10,7 +10,8 @@
 
 `node .`
 
-Then add relevant info to config.json
+Add relevant info to `config.json`
+
 
 ### Commands:
 - !vent <message>         Send a message to the vent channel. This will be approved by Warwick Esports admins first.
