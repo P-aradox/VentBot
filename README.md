@@ -8,9 +8,11 @@
 
 `npm install`
 
+Add relevant info to `config.json`
+
 `node .`
 
-Add relevant info to `config.json`
+
 
 
 ### Commands:
